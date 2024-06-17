@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+.main{
+    background-image: url("bg.jpg");
+    background-size: max(100vh, 100vw);
+    background-repeat: no-repeat;
+    height: 644px;
+    background-position: center center;
+    position: relative;
+}
+.main .background{
+    height: 644px;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+.logo img{
+    width: 100px;
+    height: 54px;
+    position: relative;
+    z-index: 1;
+}
